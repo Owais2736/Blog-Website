@@ -2,10 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  margin: 0;
+  padding: 0;
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
+.card:hover{
+  box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.46);
+-webkit-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.46);
+-moz-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.46);
+transition-duration: 0.5s;
+border-color: #E2C2C6;
+}
+.nav{
+  background-color: #2F0147;
+  
+}
+.footer{
+  background-color: #2F0147;
+  color: white;
+  
+}
+
+.navbar{
+  position: sticky;
+  top: 0px;
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -15,8 +41,7 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background-color: #E2C2C6;
   font-family: Arial, Helvetica, sans-serif;
 }
 
