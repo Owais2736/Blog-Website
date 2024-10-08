@@ -7,7 +7,7 @@ function Navbar() {
 <div className='navbar'>
 
 
-    <nav className='nav w-full  '>
+    <nav className='nav w-full '>
 
    
     <div className='container flex justify-between p-5 text-white w-full '>
@@ -23,6 +23,8 @@ function Navbar() {
                 <Link href='/advertisement'><li>Advertisement</li></Link>
             </ul>
             
+            
+           
         
       
     </div>

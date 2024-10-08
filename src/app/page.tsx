@@ -1,4 +1,5 @@
 
+import Button from "./components/Button";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -8,9 +9,18 @@ export default function Home() {
   return (
     <>
     
-    
-    <h1 className="pt-5 font-bold text-xl pl-10 text-#2F0147">News & Sports</h1>
-    <div className="flex flex-wrap gap-8 p-7">
+    <div className="flex justify-between">
+      <div>
+      <h1 className=" heading pt-5 font-bold text-xl pl-10 text-#2F0147">News & Sports</h1>
+
+      </div>
+
+      <div className="pr-11  ">
+        <Button title={"Sign Up"}/>
+      </div>
+    </div>
+
+    <div className="animation flex flex-wrap gap-8 p-6">
      
      <Link href='/blog1'>  <Card id={1} src={"https://static.wixstatic.com/media/81e4cb3234ed40418beeb153a026bc9d.jpg/v1/fill/w_740,h_493,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/81e4cb3234ed40418beeb153a026bc9d.jpg"} title= {"United Nations"} description = {"This is precisely why you are bound to experience convenience and communicate without interruptions with the highly advanced services."}  /></Link>
   

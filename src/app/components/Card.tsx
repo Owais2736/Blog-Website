@@ -13,7 +13,7 @@ function Card(props) {
       </div>
       <h1 className='mt-3 font-bold text-2xl'>{props.title}</h1>
       <p className='mt-3'>{props.description}</p>
-      <Button title={"Learn More"}/>
+      <Button title={"Learn More"} />
       
       
 

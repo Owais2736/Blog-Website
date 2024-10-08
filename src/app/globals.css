@@ -16,6 +16,16 @@
 -moz-box-shadow: -2px 1px 16px -1px rgba(0,0,0,0.46);
 transition-duration: 0.5s;
 border-color: #E2C2C6;
+
+}
+
+
+
+.button:hover{
+  color: white;
+  background-color:#2F0147 ;
+  transition: all  ease-in-out 1s;
+ 
 }
 .nav{
   background-color: #2F0147;
@@ -48,5 +58,25 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+
+@media  ( max-width: 500px){
+
+
+
+ .card{
+  width: 310px;
+
+ }
+ .heading{
+  font-size: 16px;
+ }
+ .button{
+  width: 140px;
+ }
+  .navbar{
+    display: none;
   }
 }
