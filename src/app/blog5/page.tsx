@@ -4,7 +4,7 @@ function page() {
   return (
     <div>
     <h1 className='font-bold text-2xl pl-3 pt-5'>Let's talk social reform Blogs </h1>
-    <div className='flex w-full p-5'>
+    <div className='blog flex w-full p-5'>
 
      <div className='w-1/2 '>
      <img className='w-full h-auto pt-5 rounded-xl' src="https://static.wixstatic.com/media/01c75ae547b54cfeb7b2ed44d8b7716e.jpg/v1/fill/w_740,h_493,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/01c75ae547b54cfeb7b2ed44d8b7716e.jpg" alt="" srcset="" />

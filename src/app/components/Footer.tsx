@@ -8,7 +8,7 @@ function Footer() {
       <p className='pl-3'>We are dedicated to providing the best services to our customers. Our team is committed to innovation and excellence in everything we do.We are dedicated to providing the best services to our customers. Our team is committed to innovation and excellence in everything we do.</p>
      
 
-      <div className='flex justify-around pt-7'>
+      <div className='foo flex justify-around pt-7'>
 
         <div>
         <h1  className='font-bold text-xl pl-3 pt-2'>Contact Us</h1>
