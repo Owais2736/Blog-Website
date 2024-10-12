@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import Link from "next/link";
 
 export default function Home() {
+
+  
   return (
     <>
     
@@ -15,8 +17,8 @@ export default function Home() {
 
       </div>
 
-      <div className="pr-11  ">
-        <Button title={"Sign Up"}/>
+      <div  className="pr-11  ">
+       <Link href="/signUp"><Button title={"Sign Up"}/></Link> 
       </div>
     </div>
 

@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <>
       {/* Full Navbar with Hamburger icon for screens <= 1024px */}
-      <div className="navbar w-full bg-gray-800 text-white">
+      <div className="navbar w-full text-white">
         <div className="container relative flex flex-col lg:flex-row justify-between p-5 lg:items-center">
           
           {/* Hamburger Icon (inside the navbar, top-left corner) */}

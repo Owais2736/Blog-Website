@@ -27,7 +27,7 @@ border-color: #E2C2C6;
   transition: all  ease-in-out 1s;
  
 }
-.nav{
+.navbar{
   background-color: #2F0147;
   
 }
@@ -116,6 +116,34 @@ body {
 }
 .w{
   width: 100%;
+}
+.for input{
+  width: 70vw;
+}
+.head{
+  font-size: 24px;
+  font-weight: bold;
+}
+.about p{
+  width: 80vw;
+}
+.about h1{
+  font-size: 20px;
+}
+.parent{
+  display: flex;
+  flex-direction: column;
+}
+.parent h1{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.parent p{
+  width: 90vw;
+}
+.map{
+  width: 80vw;
 }
 }
 
